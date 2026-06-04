@@ -1,0 +1,7 @@
+[project]
+name = "itmo-functional-analysis-course"
+version = "0.1.0"
+description = "Functional Analysis course"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
