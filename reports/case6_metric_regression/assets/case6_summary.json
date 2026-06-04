@@ -1,0 +1,33 @@
+{
+  "best_h_gaussian": 0.14252869500460633,
+  "best_k_adaptive": 12,
+  "best_kernel": "Треугольное",
+  "best_kernel_h": 0.3239797014848618,
+  "best_kernel_loo_rmse": 0.13168089408742548,
+  "window_error_range": 0.5344820631751404,
+  "kernel_error_range_at_fixed_h": 0.004678436413610432,
+  "sensitivity_ratio_window_to_kernel": 114.24373784801986,
+  "contamination_threshold": 0.05,
+  "outlier_fraction_for_table": 0.15,
+  "real_dataset_params": {
+    "Diabetes": {
+      "best_h": 3.5174299376902374,
+      "best_k": 50.0,
+      "fixed_cv_rmse": 58.867548056709126,
+      "adaptive_cv_rmse": 59.02082726944177,
+      "n_train": 309.0,
+      "n_test": 133.0
+    },
+    "California Housing": {
+      "best_h": 1.7477129497696022,
+      "best_k": 25.0,
+      "fixed_cv_rmse": 0.7585763427731146,
+      "adaptive_cv_rmse": 0.7145234257996278,
+      "n_train": 840.0,
+      "n_test": 360.0
+    }
+  },
+  "seed": 42,
+  "n_synth": 180,
+  "real_sample_size": 1200
+}
